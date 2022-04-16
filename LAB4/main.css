@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+body {
+    margin: 0;
+}
+.submit-btn {
+    background-color: lightgreen;
+    border-style: solid;
+    width: 10%;
+    float: left;
+}
+.cancel-btn {
+    background-color: red;
+    border-style: solid;
+    width: 10%;
+    float: left;
+}
+h1  {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    padding-left: .5em;
+    padding-top: .5em;
+}
+h2 {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 1.7em;
+    font-weight: 500;
+    padding-left: .5em;
+}
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+img {
+    width: 50%;
+    height: auto;
+}
+.item1 {
+    height: 300px;
+    border-style: solid;
+    border-color: skyblue;
+    border-width: 2px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.item1 img {
+    transition: all 1s linear;
+}
+.item1:hover img {
+    transform: rotate(360deg);
+}
+.item2 {
+    height: 300px;
+    border-style: solid;
+    border-color: skyblue;
+    border-width: 2px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.item2 img {
+    vertical-align: middle;
+    transition: all 1s linear;
+}
+.item2:hover img {
+    width: 100%;
+    height: 100%;
+}
+div {
+    margin-bottom: 1em;
+}
+.outline1 {
+    text-align: center;
+    border-style: solid;
+    border-color: red white;
+    width: max-content;
+    height: fit-content;
+    margin-left: 1em;
+    float: left;
+}
+.outline2 {
+    border-style: solid;
+    border-color: black white;
+    padding-top: 2em;
+    padding-left: 1em;
+    margin-top: 1em;
+}
+.outline3 {
+    text-align: center;
+    border-style: none;
+    width: max-content;
+    height: fit-content;
+    float: left;
+    margin-left: 1em;
+}
+.signup-btn {
+    position: relative;
+    background-color: skyblue;
+    border-style: solid;
+    width: 10%;
+    text-align: center;
+    float: left;
+    font-size: .85em;
+    padding-top: .06em;
+    padding-bottom: .06em;
+}
+.sizecheck {
+    display: flex;
+    max-width: 1020px;
+    height: 20px;
+    background-color: rgb(217, 246, 248);
+    margin: 0 auto;
+}
+.bground {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 980px;
+    height: max-content;
+    border-left: 10px solid rgb(217, 246, 248);
+    border-right: 10px solid rgb(217, 246, 248);
+    background-color: rgb(255, 252, 250);
+    margin: 0 auto;
+}
+.navigationbox {
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 1000px;
+    border-left: 10px solid rgb(217, 246, 248);
+    border-right: 10px solid rgb(217, 246, 248);
+    background-color: rgb(255, 252, 250);
+    height: max-content;
+    margin: 0 auto;
+}
+.linkbtn {
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    margin-left: 1em;
+    border-style: dashed;
+    border-color: skyblue;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.hbox {
+    width: 100%;
+    max-width: 1020px;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 1.7em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.tbox {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: medium;
+    width: 100%;
+}
+.headermove {
+    width: 100%;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 3em;
+    font-weight: 500;
+    padding-left: .5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin: 0 auto;
+    position: relative;
+    animation-name: movingheader;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes movingheader {
+    0% {left: 1020px;}
+    50% {left: 510px;}
+    100% {left: 0px;}
+}
+
+@media (max-width: 480px) {
+    .item1 {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .item2 {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .navigationbox {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hbox {
+        text-align: center;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 800px){
+    .item1 {
+        flex: 0 1 calc(50% - 10px);
+    }
+    .item2 {
+        flex: 0 1 calc(50% - 10px);
+    }
+    .navigationbox {
+        flex-direction: column;
+    }
+    .hbox {
+        text-align: center;
+    }
+}
+
+@media (min-width: 801px) {
+    .item1 {
+        flex: 1;
+    }
+    .item2 {
+        flex: 1;
+    }
+    .tbox {
+        column-count: 2;
+        column-gap: 50px;
+        column-rule: 1.5px solid skyblue;
+    }
+}

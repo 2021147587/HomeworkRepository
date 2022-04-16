@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>sign up</title>
+        <link rel = "stylesheet" type = "text/css", href = "main.css">
+    </head>
+    
+    <body>
+        <h1>Welcome to INTERNET-PROGRAMMING SHOP</h1>
+        <div class="outline3">
+            <a href="login.html">로그인</a>
+        </div>
+        <div class="outline1">회원가입</div>
+        <div style="clear:both"></div>
+        <div class="outline2">
+            <p>개인정보(필수)</p>
+            <form method="post">
+                <p><label>이름: <input type="text" name="name"
+                    placeholder="이름을 입력하세요" autofocus required></label></p>
+                <p><label>생일: <input type="date" name="birth" required></label></p>
+                <p><label>학년: <input type="number" name="grade" 
+                    min="1" max="10" step="1" required></label></p>
+                <p><label>전화번호: <input type="tel" name="tel" placeholder="(###) ###-####"
+                    pattern="\(\d{3}\) \d{3}-\d{4}" required></label></p>
+                <p><label>유저 아이디: <input type="text" name="id" 
+                    placeholder="아이디를 입력하세요" required></label></p>
+                <p><label>비밀번호: <input type="password" name="password" 
+                    placeholder="비밀번호를 입력하세요" required></label></p>
+                <p><label>비밀번호 확인: <input type="password" name="pwcheck" 
+                    placeholder="비밀번호 확인" required></label></p>
+                <p>
+                    <input type="submit" value="Signup" class="submit-btn">
+                    <input type="reset" value="Cancel" class="cancel-btn">
+                </p>
+                <div style="clear:both"></div>
+            </form>
+        </div>
+    </body>
+</html>

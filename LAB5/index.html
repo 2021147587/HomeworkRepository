@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>main page</title>
+        <link rel = "stylesheet" type = "text/css", href = "main.css">
+    </head>
+
+    <body>
+        <div class="sizecheck"></div>
+        <div class="bground">
+            <div class="headermove"> MY E-commerce</div>
+        </div>
+        <div class = "navigationbox">
+                <div class="linkbtn">
+                    <a href="index.html">main</a>
+                </div>
+                <div class="linkbtn">
+                    <a href="login.html">login</a>
+                </div>
+                <div class="linkbtn">
+                    <a href="signup.html">signup</a>
+                </div>
+        </div>
+        <div class="bground">
+            <div class="hbox">---판매 물품 리스트---</div>
+            <aside>
+                <form>
+                    <div>
+                        <label for="categroy">Choose a category:</label>
+                        <select id="category">
+                        <option selected>All</option>
+                        <option>cinnamoroll</option>
+                        <option>hello kitty</option>
+                        <option>pompompurin</option>
+                        <option>keroppi</option>
+                        <option>my melody</option>
+                    </select>
+                    </div>
+                    <div>
+                        <label for="searchTerm">Enter search term:</label>
+                        <input type="text" id="searchTerm" placeholder="e.g. cushion">
+                    </div>
+                    <div>
+                        <button>Filter results</button>
+                    </div>
+                </form>
+            </aside>
+            <main>
+
+            </main>
+        </div>
+        <div class="sizecheck"></div>
+        <script src="products.js"></script>
+    </body>
+</html>

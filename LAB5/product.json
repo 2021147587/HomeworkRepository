@@ -1,0 +1,79 @@
+[
+    {
+        "image": "item1.png",
+        "name": "cinnamoroll mug",
+        "price": "$15",
+        "character": "cinnamoroll",
+        "type": "mug"
+    },
+    {
+        "image": "item2.png",
+        "name": "cinnamoroll cushion",
+        "price": "$13",
+        "character": "cinnamoroll",
+        "type": "cushion"
+    },
+    {
+        "image": "item3.png",
+        "name": "halloween cinnamoroll doll",
+        "price": "$18",
+        "character": "cinnamoroll",
+        "type": "doll"
+    },
+    {
+        "image": "item4.png",
+        "name": "cinnamoroll figure",
+        "price": "$23",
+        "character": "cinnamoroll",
+        "type": "figure"
+    },
+    {
+        "image": "item5.png",
+        "name": "hello kitty cushion",
+        "price": "$13",
+        "character": "hello kitty",
+        "type": "cushion"
+    },
+    {
+        "image": "item6.png",
+        "name": "strawberry hello kitty doll",
+        "price": "$18",
+        "character": "hello kitty",
+        "type": "doll"
+    },
+    {
+        "image": "item7.png",
+        "name": "pompompurin cushion",
+        "price": "$13",
+        "character": "pompompurin",
+        "type": "cushion"
+    },
+    {
+        "image": "item8.png",
+        "name": "pompompurin mug",
+        "price": "$18",
+        "character": "pompompurin",
+        "type": "mug"
+    },
+    {
+        "image": "item9.png",
+        "name": "ribbon my melody doll",
+        "price": "$18",
+        "character": "my melody",
+        "type": "doll"
+    },
+    {
+        "image": "item10.png",
+        "name": "devil my melody doll",
+        "price": "$25",
+        "character": "my melody",
+        "type": "doll"
+    },
+    {
+        "image": "item11.png",
+        "name": "keroppi cushion",
+        "price": "$13",
+        "character": "keroppi",
+        "type": "cushion"
+    }
+]
